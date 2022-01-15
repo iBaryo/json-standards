@@ -1,0 +1,22 @@
+{
+  "name": "json-standards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pointer": "ts-node json-pointer",
+    "schema": "ts-node json-schema",
+    "patch": "ts-node json-patch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/json-pointer": "^1.0.31",
+    "@types/json-schema": "^7.0.9",
+    "ajv": "^8.9.0",
+    "fast-json-patch": "^3.1.0",
+    "json-pointer": "^0.6.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
