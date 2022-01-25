@@ -1,0 +1,17 @@
+{
+  "valTypes": {
+    "string": "aaa",
+    "number": 42,
+    "boolean": true,
+    "array": [
+      1,
+      2,
+      3
+    ]
+  },
+  "keyTypes": {
+    "key": "string",
+    "23": "number",
+    "true": "boolean"
+  }
+}

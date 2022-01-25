@@ -21,7 +21,7 @@ Point at a specific place in a JSON!
 Describing the structure a JSON need to be in.
 * [Formly Playground](https://jsonform.github.io/jsonform/playground/index.html)
 * Useful topics:
-  * References (`$ref`) and recursive schemas
+  * Definitions, References (`$ref`) and recursive schemas
   * Conditional Schemas (`if`/`then`/`else`)
   * Schema aggregators
       * `allOf` (e.g. inheritance)

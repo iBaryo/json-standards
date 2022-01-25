@@ -16,7 +16,7 @@ interface MyObject {
                 g: number;
                 h: string[];
                 i: number[];
-                j: string[][];
+                j: number[][];
             }
         }
     }
@@ -57,8 +57,8 @@ const schema: JSONSchema7 = {
                                     items: {
                                         type: 'array',
                                         items: {
-                                            type: 'number',
-                                            default: 42
+                                            type: 'string',
+                                            default: 'this is a cool default value from json-schema!'
                                         }
                                     }
                                 }
@@ -124,9 +124,9 @@ const o = parser.transform({
     }
 });
 
-const validate = new Ajv().compile(schema);
+// const validate = new Ajv().compile(schema);
 
 console.log(
-    validate(o),
+    // validate(o),
     JSON.stringify(o, undefined, 4)
 );
